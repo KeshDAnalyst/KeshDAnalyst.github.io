@@ -1,1 +1,1 @@
-document.querySelectorAll("nav a").forEach(a=>a.addEventListener("click",()=>{}));
+const menu=document.querySelector('.menu');const nav=document.querySelector('.site-header nav');menu?.addEventListener('click',()=>{nav.style.display=nav.style.display==='flex'?'none':'flex';nav.style.position='absolute';nav.style.top='74px';nav.style.right='0';nav.style.left='0';nav.style.height='auto';nav.style.padding='20px 6%';nav.style.flexDirection='column';nav.style.background='rgba(2,15,19,.98)'});
